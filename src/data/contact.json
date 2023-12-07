@@ -1,0 +1,27 @@
+{
+  "title": "Contact Us",
+  "contactList": [
+    {
+      "title": "Address",
+      "description": "Westmark Mall - El sheikh zayed  Giza - Egypt 2nd floor - Unit B3-02-03"
+    },
+    {
+      "title": "Working Hours",
+      "description": "Sunday - Thursday from 9:00 am to 5:00 pm"
+    },
+    {
+      "title": "Phone numbers",
+      "description": {
+        "tel_One": "Cell:  +201001230126",
+        "tel_Two": "Cell:  +201001980036"
+      }
+    },
+    {
+      "title": "Email",
+      "description": {
+        "mail_one": "taola@taolaegypt.com",
+        "mail_two": "taolaegypt1@gmail.com"
+      }
+    }
+  ]
+}

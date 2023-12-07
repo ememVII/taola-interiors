@@ -1,0 +1,34 @@
+{
+    "title": "Services",
+    "description": "At Taola we offer a wide scope of Interior design activities related to creating functional and aesthetic spaces. Here are some of the services we offer our client:",
+    "servicesList": [
+        {
+            "logo": "services/brown-interior-design.svg",
+            "title": "Interior Design",
+            "description": "We offer a range of services, including concept and schematic design, complete working drawings, furniture production and fixture selection, site supervision, and assistance with accessory choices."
+        },
+        {
+            "logo": "services/brown-furnitures.svg",
+            "title": "Furniture Design & production",
+            "description": "We take pride in producing our own furniture with passion and attention to detail. Our skilled team excels in crafting pieces using various materials such as wood, upholstery, glass, and stainless steel, ensuring every project achieves its desired final look."
+        },
+        {
+            "logo": "services/brown-construction-work.svg",
+            "title": "Construction work",
+            "description": "Site construction, implementing all design approved by client & supervision on site. Reviewing BOQ, Following up deliveries & project time line. Supervising all material selection on site are according to the design."
+        },
+        {
+            "logo": "services/brown-partnership.svg", 
+            "title": "Turn key projects" ,
+            "description": "We offer comprehensive support throughout the entire project, taking care of every detail. Our services encompass interior design, on-site construction, procurement of various items, project management, and coordination with all parties involved."
+        },{
+            "logo": "services/brown-vase.svg",
+            "title": "FF&E / Accessories selection ",
+            "description": "We transform a space and give it life through furniture, Accessories, cushions, Carpets and other decorative items that are essential at elevating the mood and giving a special feel to every space."
+        },{
+            "logo": "services/brown-plan.svg",
+            "title": "Space planning",
+            "description": "Analysing spaces and developing layouts to optimize functionality, traffic flow and efficiently using every corner of the space."
+        }
+    ]
+}

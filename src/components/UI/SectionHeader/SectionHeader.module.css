@@ -1,0 +1,28 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.section-header .lineDivider {
+    background-color: var(--line-divider);
+    width: 150px;
+    height: 3px;
+}
+
+.section-header h1 {
+  color: var(--font-color);
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.section-header p {
+  color: var(--font-color);
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+}

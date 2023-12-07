@@ -1,0 +1,84 @@
+import styles from './Navbar.module.css'
+import { Logo, UpRightArrowDark, closeMenu } from '../../../utils/imgs'
+import { Link, useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+
+function Navbar() {
+  const location = useLocation()
+  const [navToggler, setNavToggler] = useState(false)
+
+  const handleNavToggler = () => {
+    setNavToggler(isOpen => !isOpen)
+  }
+
+  useEffect(() => {
+    if (navToggler) {
+      document.body.classList.add('disable-scroll')
+    } else {
+      document.body.classList.remove('disable-scroll')
+    }
+  }, [navToggler])
+
+  const navRouting = [
+    ['/home', 'Home'],
+    ['/about', 'About Us'],
+    ['/projects', 'Projects'],
+    ['/services', 'Services'],
+    ['/clients', 'Clients'],
+    ['/contact', 'Contact Us'],
+  ]
+
+  return (
+    <nav>
+      <div className="logo">
+        <Link to="/home">
+          <img src={Logo} alt="taola logo" className={styles.logo} />
+        </Link>
+      </div>
+      <p onClick={handleNavToggler}>Menu</p>
+      {navToggler && (
+        <div className={styles.navMenu}>
+          <img src={closeMenu} alt="close menu" onClick={handleNavToggler} />
+          <div>
+            <ul className={`${styles.navMenuLinks} `}>
+              {navRouting.map(([route, navLink], i) => (
+                <Link key={i} to={route} onClick={handleNavToggler}>
+                  <li>
+                    {navLink}
+                    <img src={UpRightArrowDark} alt="" />
+                  </li>
+                </Link>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+
+      <ul className={`${styles.links} `}>
+        {navRouting.map(([route, navLink], i) => (
+          <li
+            key={i}
+            className={location.pathname === route ? styles.active : ''}
+          >
+            <Link to={route}>{navLink}</Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
+
+export default Navbar
+
+/* 
+        <Link to="/home">
+          <img
+            src={Logo}
+            alt="taola logo"
+            width={167}
+            height={80}
+            className={styles.logo}
+          />
+        </Link>
+
+*/

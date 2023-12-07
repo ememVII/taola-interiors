@@ -1,0 +1,28 @@
+.lightBtn, .darkBtn {
+    font-family: Baskerville;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    
+    display: inline-flex;
+    padding: 20px 30px;
+    align-items: center;
+    gap: 10px;
+
+    margin-left: 5px;
+    margin-bottom: 15px;
+    
+    border: none;
+    outline: none;
+}
+
+.lightBtn {
+    background-color: var(--our-white);
+    color: var(--primary);
+}
+
+.darkBtn {
+    background-color: var(--primary);
+    color: var(--our-white);
+}

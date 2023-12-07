@@ -1,0 +1,11 @@
+.singleProject {
+    margin: 3rem 0;
+}
+
+.singleProject h3 {
+    color: var(--secondery);
+}
+
+.singleProject img {
+    width: 100%;
+}
