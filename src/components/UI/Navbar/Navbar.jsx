@@ -30,9 +30,9 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">
+      <div className={styles.logo}>
         <Link to="/home">
-          <img src={Logo} alt="taola logo" className={styles.logo} />
+          <img src={Logo} alt="taola logo" width={150}/>
         </Link>
       </div>
       <p onClick={handleNavToggler}>Menu</p>

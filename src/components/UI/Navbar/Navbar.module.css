@@ -45,13 +45,13 @@ nav p {
 }
 
 @media (max-width: 800px) {
-    ul.links {
-        display: none;
-    }
-    
-    nav p {
-        display: block;
-    }
+  ul.links {
+    display: none;
+  }
+
+  nav p {
+    display: block;
+  }
 }
 
 nav .navMenu {

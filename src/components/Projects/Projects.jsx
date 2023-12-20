@@ -105,7 +105,7 @@ function Projects() {
       <div className={`${styles.projectsContent} row text-center`}>
         {projectsData.map(
           project =>
-            project.id === selectedProject &&
+            project.id === selectedProject && !project.notClickable &&
             project.subProjects.map(subProject => (
               <Link
                 to={`/${project.id}/${subProject.id}`}
@@ -118,7 +118,7 @@ function Projects() {
                   className="img-fluid"
                 />
                 <h3>{subProject.title}</h3>
-                <p>{subProject.info}</p>
+                <p>{subProject.scope}</p>
               </Link>
             ))
         )}

@@ -8,21 +8,21 @@ import NotFound from '../NotFound/NotFound'
 function SingleProject() {
   const { projectId, subProjectId } = useParams()
 
-  //Projects 
+  //Projects
   const project = projectsData.find(p => p.id === projectId)
   // Check if no projects
-  if(!project, project.notClickable) {
-    return <NotFound/>
+  if ((!project, project.notClickable)) {
+    return <NotFound />
   }
-  
+
   // SubProjects
   const subProject = project.subProjects.find(sp => sp.id === subProjectId)
   // Check if no subProjects
-  if(!subProject) {
-    return <NotFound/>
-}
-  
-  const { title, info, images } = subProject
+  if (!subProject) {
+    return <NotFound />
+  }
+
+  const { title, scope, images } = subProject
 
   return (
     <>
@@ -33,14 +33,14 @@ function SingleProject() {
           </Link>
           <div>
             <h3>{title}</h3>
-            <p>{info}</p>
+            <p>{scope}</p>
           </div>
         </div>
         <div className="row text-center">
           {images.map((path, i) => (
-              <div key={i} className="project-image col-md-4 my-3">
-                <img src={`${path}`} />
-              </div>
+            <div key={i} className="project-image col-md-4 my-3">
+              <img src={`${path}`} />
+            </div>
           ))}
         </div>
       </div>

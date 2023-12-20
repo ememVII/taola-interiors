@@ -3,7 +3,8 @@ import styles from './Home.module.css'
 
 function Intro() {
   return (
-    <section className={`${styles.intro} row justify-content-between`}>
+    <div className='d-flex justify-content-center'>
+      <section className={`${styles.intro} row justify-content-between`}>
       <h1 className={`${styles.heroSignature}`}>Taola</h1>
       <div className={`${styles.introDetails} col-12 col-lg-8`}>
         <div className='mb-4'>
@@ -39,6 +40,7 @@ function Intro() {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 

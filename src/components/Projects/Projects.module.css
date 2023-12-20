@@ -120,6 +120,7 @@
   border-radius: 4px;
   width: 320px;
   height: 320px;
+  object-fit: cover;
 }
 
 .projects .projectsContent h3 {
