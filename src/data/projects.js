@@ -174,21 +174,21 @@ export const projectsData = [
           'projects/residential/project-10/06.jpg',
         ],
       },
-      {
-        id: '11',
-        title: 'H villa - Allegria',
-        scope: 'Furniture Production',
-        subProjectCover: 'projects/residential/project-11/artwork.jpg',
-        images: [
-          'projects/residential/project-11/01.jpg',
-          'projects/residential/project-11/02.jpg',
-          'projects/residential/project-11/03.jpg',
-          'projects/residential/project-11/04.jpg',
-          'projects/residential/project-11/05.jpg',
-          'projects/residential/project-11/06.jpg',
-          'projects/residential/project-11/07.jpg',
-        ],
-      },
+      // {
+      //   id: '11',
+      //   title: 'H villa - Allegria',
+      //   scope: 'Furniture Production',
+      //   subProjectCover: 'projects/residential/project-11/artwork.jpg',
+      //   images: [
+      //     'projects/residential/project-11/01.jpg',
+      //     'projects/residential/project-11/02.jpg',
+      //     'projects/residential/project-11/03.jpg',
+      //     'projects/residential/project-11/04.jpg',
+      //     'projects/residential/project-11/05.jpg',
+      //     'projects/residential/project-11/06.jpg',
+      //     'projects/residential/project-11/07.jpg',
+      //   ],
+      // },
       {
         id: '12',
         title: 'T Villa - Allegria',
@@ -444,7 +444,7 @@ export const projectsData = [
   // Project 03
   {
     id: 'hospitality',
-    notClickable: true,
+    notClickable: false,
     projectTitle: 'Hospitality',
     projectCover: 'projects/hospitality/cover.png',
     description:
@@ -452,20 +452,36 @@ export const projectsData = [
     subProjects: [
       {
         id: '1',
-        title: '',
-        scope: '',
+        title: 'Sheraton Cairo Hotel',
+        scope: 'Interior design',
         subProjectCover: 'projects/hospitality/project-01/artwork.jpg',
         images: [
           'projects/hospitality/project-01/01.jpg',
+          'projects/hospitality/project-01/02.jpg',
+          'projects/hospitality/project-01/03.jpg',
+          'projects/hospitality/project-01/04.jpg',
+          'projects/hospitality/project-01/05.jpg',
+          'projects/hospitality/project-01/06.jpg',
+          'projects/hospitality/project-01/07.jpg',
+          'projects/hospitality/project-01/08.jpg',
+          'projects/hospitality/project-01/09.jpg',
+          'projects/hospitality/project-01/10.jpg',
+          'projects/hospitality/project-01/11.jpg',
+          'projects/hospitality/project-01/12.jpg',
+          'projects/hospitality/project-01/13.jpg',
         ],
       },
       {
         id: '2',
-        title: '',
-        scope: '',
+        title: 'Cleopatra Tower - Sheraton Cairo Hotel',
+        scope: 'Interior Design',
         subProjectCover: 'projects/hospitality/project-02/artwork.jpg',
         images: [
           'projects/hospitality/project-02/01.jpg',
+          'projects/hospitality/project-02/02.jpg',
+          'projects/hospitality/project-02/03.jpg',
+          'projects/hospitality/project-02/04.jpg',
+          'projects/hospitality/project-02/05.jpg',
         ],
       },
     ],
@@ -474,7 +490,7 @@ export const projectsData = [
   // Project 04
   {
     id: 'commercial',
-    notClickable: true,
+    notClickable: false,
     projectTitle: 'Commercial',
     projectCover: 'projects/commercial/cover.png',
     description:
@@ -494,15 +510,14 @@ export const projectsData = [
       },
       {
         id: '2',
-        title: '',
-        scope: '',
+        title: 'Sky Lounge - Sheraton Cairo Hotel',
+        scope: 'Interior design',
         subProjectCover: 'projects/commercial/project-02/artwork.jpg',
         images: [
           'projects/commercial/project-02/01.jpg',
           'projects/commercial/project-02/02.jpg',
           'projects/commercial/project-02/03.jpg',
           'projects/commercial/project-02/04.jpg',
-          'projects/commercial/project-02/05.jpg',
         ],
       },
       {

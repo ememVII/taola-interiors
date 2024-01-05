@@ -13,6 +13,7 @@ import {
 } from './utils/pages'
 import SingleProject from './pages/SingleProject/SingleProject'
 import NotFound from './pages/NotFound/NotFound'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -32,7 +33,7 @@ function App() {
       document.body.classList.remove('disable-scroll')
     }
   }, [isLoading])
-
+  
   return (
     <>
       {isLoading ? (
@@ -41,6 +42,7 @@ function App() {
         <>
           <Navbar />
           <main className="my-container">
+            <ScrollToTop/> {/* Include ScrollToTop as a top-level component */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />

@@ -25,7 +25,7 @@ function ContactUs() {
                       {contactData.contactList.slice(0, 2).map((contact, i) => (
                         <div key={i}>
                           <h3>{contact.title}</h3>
-                          <p>{contact.description}</p>
+                          <p>Westmark Mall - El sheikh zayed Giza - Egypt <br/> 2nd floor - Unit B3-02-03</p>
                         </div>
                       ))}
                     </div>

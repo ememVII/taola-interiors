@@ -6,7 +6,7 @@ import styles from './Projects.module.css'
 
 function Projects() {
   const { projectId } = useParams()
-  const [selectedProject, setSelectedProject] = useState('')
+  const [selectedProject, setSelectedProject] = useState('residential')
 
   const handleProjectClick = categoryId => {
     setSelectedProject(categoryId)

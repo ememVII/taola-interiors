@@ -26,7 +26,7 @@ function MainProjects() {
           ['commercial', 'Commercial', CommercialHomeProject],
           ['furniture', 'Furniture Production', FurnitureProductionHomeProject],
         ].map(([projectId, projectName, projectImg], index) => (
-          <div className='col-6 col-lg-2 flex-grow-1'>
+          <div className='col-6 col-lg-2 flex-grow-1' key={projectId}>
             <h2>{projectName}</h2>
             <div
               className={`${styles.singleProject} position-relative`}
