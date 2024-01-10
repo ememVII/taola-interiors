@@ -1,7 +1,5 @@
 import styles from './ContactUs.module.css'
-import Button from '../UI/Button/Button'
 import contactData from '../../data/contact.json'
-import { socialLinks } from '../../data/social-links'
 import { Contact } from '../../utils/imgs'
 import { Link } from 'react-router-dom'
 
@@ -11,7 +9,7 @@ function ContactUs() {
       <section id={styles.contact}>
         <div className="container-fluid">
           <div className="row align-items-center">
-            <div className="col-md-4">
+            <div className={`col-md-4 ${styles['contact-img']}`}>
               <img src={Contact} alt="contact_img" className="img-fluid" />
             </div>
             <div className="col-md-8">
@@ -22,12 +20,22 @@ function ContactUs() {
                     <div
                       className={`${styles.column_One} position-relative ps-3`}
                     >
-                      {contactData.contactList.slice(0, 2).map((contact, i) => (
+                      {/* {contactData.contactList.slice(0, 2).map((contact, i) => (
                         <div key={i}>
                           <h3>{contact.title}</h3>
-                          <p>Westmark Mall - El sheikh zayed Giza - Egypt <br/> 2nd floor - Unit B3-02-03</p>
+                          <p>
+                            Westmark Mall - El sheikh zayed Giza - Egypt <br />{' '}
+                            Bldg 3 - 2nd floor - Unit 3
+                          </p>
                         </div>
-                      ))}
+                      ))} */}
+                      <h3>Address</h3>
+                      <p>
+                        Westmark Mall - El sheikh zayed Giza - Egypt <br /> Bldg
+                        3 - 2nd floor - Unit 3
+                      </p>
+                      <h3 className='mt-4'>Working Hours</h3>
+                      <p>Sunday - Thursday from 9:00 am to 5:00 pm</p>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -50,9 +58,11 @@ function ContactUs() {
                   </div>
                 </div>
                 <div className={`${styles.media} mt-5`}>
-                  <Link to="mailto: taola@taolaegypt.com">
-                    <Button />
-                  </Link>
+                  <button className={styles['schedule-btn']}>
+                    <Link to="mailto: taola@taolaegypt.com">
+                      Schedule an appointment
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

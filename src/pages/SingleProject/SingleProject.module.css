@@ -1,11 +1,96 @@
 .singleProject {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .singleProject h3 {
-    color: var(--secondery);
+  color: var(--secondery);
 }
 
-.singleProject img {
-    width: 100%;
+.thumbnail-image {
+  width: 100%;
+  cursor: pointer;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* Style for the lightbox container */
+.lightbox {
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 10000; */
+  /* position: fixed; */
+  max-width: 90%; /* Adjust the maximum width as needed */
+  max-height: 90vh; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.lightbox img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.lightbox .close-btn {
+  position: absolute;
+  font-size: 2rem;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: var(--our-white);
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.lightbox .prev-btn,
+.lightbox .next-btn {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  background-color: var(--our-white);
+  border: none;
+  padding: 15px 8px 15px 8px;
+  border-radius: 4px;
+  box-shadow: 2px 0px 27px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: 2px 0px 27px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 2px 0px 27px 0px rgba(0,0,0,0.42);
+}
+
+.lightbox .prev-btn {
+  left: 24px;
+}
+
+.lightbox .next-btn {
+  right: 24px;
+}
+
+@media (max-width: 767px) {
+    .lightbox .prev-btn img, .lightbox .next-btn img {
+        width: 25px !important;
+      }
+}
+
+@media (max-width: 557px) {
+    .lightbox .prev-btn, .lightbox .next-btn {
+        padding: 3px 5px;
+    }
+    .lightbox .prev-btn img, .lightbox .next-btn img {
+        width: 15px !important;
+      }
 }

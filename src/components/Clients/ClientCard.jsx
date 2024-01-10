@@ -3,8 +3,8 @@ import { clientLogo } from '../../utils/clients'
 
 function Clients() {
   const altLogo = [
-    'sheraton',
     'marriott',
+    'sheraton',
     'crcica',
     'abdelraouf',
     'bricks4kidz',

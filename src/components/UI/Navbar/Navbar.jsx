@@ -69,16 +69,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-/* 
-        <Link to="/home">
-          <img
-            src={Logo}
-            alt="taola logo"
-            width={167}
-            height={80}
-            className={styles.logo}
-          />
-        </Link>
-
-*/

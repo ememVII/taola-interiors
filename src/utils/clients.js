@@ -6,8 +6,8 @@ import marriott from "/clients/marriott logo.png";
 import polyserve from "/clients/polyserve logo.png";
 
 export const clientLogo = [
-    sheraton,
     marriott,
+    sheraton,
     crcica,
     abdelraouf,
     bricks4kidz,

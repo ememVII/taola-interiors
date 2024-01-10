@@ -27,6 +27,20 @@ export const projectsData = [
           'projects/residential/project-01/11.jpg',
           'projects/residential/project-01/12.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-01/fullScreenImages/01.jpg',
+          'projects/residential/project-01/fullScreenImages/02.jpg',
+          'projects/residential/project-01/fullScreenImages/03.jpg',
+          'projects/residential/project-01/fullScreenImages/04.jpg',
+          'projects/residential/project-01/fullScreenImages/05.jpg',
+          'projects/residential/project-01/fullScreenImages/06.jpg',
+          'projects/residential/project-01/fullScreenImages/07.jpg',
+          'projects/residential/project-01/fullScreenImages/08.jpg',
+          'projects/residential/project-01/fullScreenImages/09.jpg',
+          'projects/residential/project-01/fullScreenImages/10.jpg',
+          'projects/residential/project-01/fullScreenImages/11.jpg',
+          'projects/residential/project-01/fullScreenImages/12.jpg',
+        ]
       },
       {
         id: '2',
@@ -56,6 +70,29 @@ export const projectsData = [
           'projects/residential/project-02/20.jpg',
           'projects/residential/project-02/21.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-02/fullScreenImages/01.jpg',
+          'projects/residential/project-02/fullScreenImages/02.jpg',
+          'projects/residential/project-02/fullScreenImages/03.jpg',
+          'projects/residential/project-02/fullScreenImages/04.jpg',
+          'projects/residential/project-02/fullScreenImages/05.jpg',
+          'projects/residential/project-02/fullScreenImages/06.jpg',
+          'projects/residential/project-02/fullScreenImages/07.jpg',
+          'projects/residential/project-02/fullScreenImages/08.jpg',
+          'projects/residential/project-02/fullScreenImages/09.jpg',
+          'projects/residential/project-02/fullScreenImages/10.jpg',
+          'projects/residential/project-02/fullScreenImages/11.jpg',
+          'projects/residential/project-02/fullScreenImages/12.jpg',
+          'projects/residential/project-02/fullScreenImages/13.jpg',
+          'projects/residential/project-02/fullScreenImages/14.jpg',
+          'projects/residential/project-02/fullScreenImages/15.jpg',
+          'projects/residential/project-02/fullScreenImages/16.jpg',
+          'projects/residential/project-02/fullScreenImages/17.jpg',
+          'projects/residential/project-02/fullScreenImages/18.jpg',
+          'projects/residential/project-02/fullScreenImages/19.jpg',
+          'projects/residential/project-02/fullScreenImages/20.jpg',
+          'projects/residential/project-02/fullScreenImages/21.jpg',
+        ]
       },
       {
         id: '3',
@@ -65,6 +102,9 @@ export const projectsData = [
         images: [
           'projects/residential/project-03/01.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-03/fullScreenImages/01.jpg',
+        ]
       },
       {
         id: '4',
@@ -78,6 +118,13 @@ export const projectsData = [
           'projects/residential/project-04/04.jpg',
           'projects/residential/project-04/05.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-04/fullScreenImages/01.jpg',
+          'projects/residential/project-04/fullScreenImages/02.jpg',
+          'projects/residential/project-04/fullScreenImages/03.jpg',
+          'projects/residential/project-04/fullScreenImages/04.jpg',
+          'projects/residential/project-04/fullScreenImages/05.jpg',
+        ]
       },
       {
         id: '5',
@@ -95,6 +142,17 @@ export const projectsData = [
           'projects/residential/project-05/08.jpg',
           'projects/residential/project-05/09.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-05/fullScreenImages/01.jpg',
+          'projects/residential/project-05/fullScreenImages/02.jpg',
+          'projects/residential/project-05/fullScreenImages/03.jpg',
+          'projects/residential/project-05/fullScreenImages/04.jpg',
+          'projects/residential/project-05/fullScreenImages/05.jpg',
+          'projects/residential/project-05/fullScreenImages/06.jpg',
+          'projects/residential/project-05/fullScreenImages/07.jpg',
+          'projects/residential/project-05/fullScreenImages/08.jpg',
+          'projects/residential/project-05/fullScreenImages/09.jpg',
+        ]
       },
       {
         id: '6',
@@ -107,6 +165,12 @@ export const projectsData = [
           'projects/residential/project-06/03.jpg',
           'projects/residential/project-06/04.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-06/fullScreenImages/01.jpg',
+          'projects/residential/project-06/fullScreenImages/02.jpg',
+          'projects/residential/project-06/fullScreenImages/03.jpg',
+          'projects/residential/project-06/fullScreenImages/04.jpg',
+        ]
       },
       {
         id: '7',
@@ -123,6 +187,16 @@ export const projectsData = [
           'projects/residential/project-07/07.jpg',
           'projects/residential/project-07/08.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-07/fullScreenImages/01.jpg',
+          'projects/residential/project-07/fullScreenImages/02.jpg',
+          'projects/residential/project-07/fullScreenImages/03.jpg',
+          'projects/residential/project-07/fullScreenImages/04.jpg',
+          'projects/residential/project-07/fullScreenImages/05.jpg',
+          'projects/residential/project-07/fullScreenImages/06.jpg',
+          'projects/residential/project-07/fullScreenImages/07.jpg',
+          'projects/residential/project-07/fullScreenImages/08.jpg',
+        ]
       },
       {
         id: '8',
@@ -138,6 +212,15 @@ export const projectsData = [
           'projects/residential/project-08/06.jpg',
           'projects/residential/project-08/07.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-08/fullScreenImages/01.jpg',
+          'projects/residential/project-08/fullScreenImages/02.jpg',
+          'projects/residential/project-08/fullScreenImages/03.jpg',
+          'projects/residential/project-08/fullScreenImages/04.jpg',
+          'projects/residential/project-08/fullScreenImages/05.jpg',
+          'projects/residential/project-08/fullScreenImages/06.jpg',
+          'projects/residential/project-08/fullScreenImages/07.jpg',
+        ]
       },
       {
         id: '9',
@@ -159,6 +242,21 @@ export const projectsData = [
           'projects/residential/project-09/12.jpg',
           'projects/residential/project-09/13.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-09/fullScreenImages/01.jpg',
+          'projects/residential/project-09/fullScreenImages/02.jpg',
+          'projects/residential/project-09/fullScreenImages/03.jpg',
+          'projects/residential/project-09/fullScreenImages/04.jpg',
+          'projects/residential/project-09/fullScreenImages/05.jpg',
+          'projects/residential/project-09/fullScreenImages/06.jpg',
+          'projects/residential/project-09/fullScreenImages/07.jpg',
+          'projects/residential/project-09/fullScreenImages/08.jpg',
+          'projects/residential/project-09/fullScreenImages/09.jpg',
+          'projects/residential/project-09/fullScreenImages/10.jpg',
+          'projects/residential/project-09/fullScreenImages/11.jpg',
+          'projects/residential/project-09/fullScreenImages/12.jpg',
+          'projects/residential/project-09/fullScreenImages/13.jpg',
+        ]
       },
       {
         id: '10',
@@ -173,6 +271,14 @@ export const projectsData = [
           'projects/residential/project-10/05.jpg',
           'projects/residential/project-10/06.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-10/fullScreenImages/01.jpg',
+          'projects/residential/project-10/fullScreenImages/02.jpg',
+          'projects/residential/project-10/fullScreenImages/03.jpg',
+          'projects/residential/project-10/fullScreenImages/04.jpg',
+          'projects/residential/project-10/fullScreenImages/05.jpg',
+          'projects/residential/project-10/fullScreenImages/06.jpg',
+        ]
       },
       // {
       //   id: '11',
@@ -203,6 +309,15 @@ export const projectsData = [
           'projects/residential/project-12/06.jpg',
           'projects/residential/project-12/07.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-12/fullScreenImages/01.jpg',
+          'projects/residential/project-12/fullScreenImages/02.jpg',
+          'projects/residential/project-12/fullScreenImages/03.jpg',
+          'projects/residential/project-12/fullScreenImages/04.jpg',
+          'projects/residential/project-12/fullScreenImages/05.jpg',
+          'projects/residential/project-12/fullScreenImages/06.jpg',
+          'projects/residential/project-12/fullScreenImages/07.jpg',
+        ]
       },
       {
         id: '13',
@@ -219,6 +334,16 @@ export const projectsData = [
           'projects/residential/project-13/07.jpg',
           'projects/residential/project-13/08.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-13/fullScreenImages/01.jpg',
+          'projects/residential/project-13/fullScreenImages/02.jpg',
+          'projects/residential/project-13/fullScreenImages/03.jpg',
+          'projects/residential/project-13/fullScreenImages/04.jpg',
+          'projects/residential/project-13/fullScreenImages/05.jpg',
+          'projects/residential/project-13/fullScreenImages/06.jpg',
+          'projects/residential/project-13/fullScreenImages/07.jpg',
+          'projects/residential/project-13/fullScreenImages/08.jpg',
+        ]
       },
       {
         id: '14',
@@ -233,6 +358,14 @@ export const projectsData = [
           'projects/residential/project-14/05.jpg',
           'projects/residential/project-14/06.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-14/fullScreenImages/01.jpg',
+          'projects/residential/project-14/fullScreenImages/02.jpg',
+          'projects/residential/project-14/fullScreenImages/03.jpg',
+          'projects/residential/project-14/fullScreenImages/04.jpg',
+          'projects/residential/project-14/fullScreenImages/05.jpg',
+          'projects/residential/project-14/fullScreenImages/06.jpg',
+        ]
       },
       {
         id: '15',
@@ -258,6 +391,25 @@ export const projectsData = [
           'projects/residential/project-15/16.jpg',
           'projects/residential/project-15/17.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-15/fullScreenImages/01.jpg',
+          'projects/residential/project-15/fullScreenImages/02.jpg',
+          'projects/residential/project-15/fullScreenImages/03.jpg',
+          'projects/residential/project-15/fullScreenImages/04.jpg',
+          'projects/residential/project-15/fullScreenImages/05.jpg',
+          'projects/residential/project-15/fullScreenImages/06.jpg',
+          'projects/residential/project-15/fullScreenImages/07.jpg',
+          'projects/residential/project-15/fullScreenImages/08.jpg',
+          'projects/residential/project-15/fullScreenImages/09.jpg',
+          'projects/residential/project-15/fullScreenImages/10.jpg',
+          'projects/residential/project-15/fullScreenImages/11.jpg',
+          'projects/residential/project-15/fullScreenImages/12.jpg',
+          'projects/residential/project-15/fullScreenImages/13.jpg',
+          'projects/residential/project-15/fullScreenImages/14.jpg',
+          'projects/residential/project-15/fullScreenImages/15.jpg',
+          'projects/residential/project-15/fullScreenImages/16.jpg',
+          'projects/residential/project-15/fullScreenImages/17.jpg',
+        ]
       },
       {
         id: '16',
@@ -280,6 +432,22 @@ export const projectsData = [
           'projects/residential/project-16/13.jpg',
           'projects/residential/project-16/14.jpg',
         ],
+        fullScreenImages: [
+          'projects/residential/project-16/fullScreenImages/01.jpg',
+          'projects/residential/project-16/fullScreenImages/02.jpg',
+          'projects/residential/project-16/fullScreenImages/03.jpg',
+          'projects/residential/project-16/fullScreenImages/04.jpg',
+          'projects/residential/project-16/fullScreenImages/05.jpg',
+          'projects/residential/project-16/fullScreenImages/06.jpg',
+          'projects/residential/project-16/fullScreenImages/07.jpg',
+          'projects/residential/project-16/fullScreenImages/08.jpg',
+          'projects/residential/project-16/fullScreenImages/09.jpg',
+          'projects/residential/project-16/fullScreenImages/10.jpg',
+          'projects/residential/project-16/fullScreenImages/11.jpg',
+          'projects/residential/project-16/fullScreenImages/12.jpg',
+          'projects/residential/project-16/fullScreenImages/13.jpg',
+          'projects/residential/project-16/fullScreenImages/14.jpg',
+        ]
       },
     ],
   },
@@ -304,6 +472,12 @@ export const projectsData = [
           'projects/corporate/project-01/03.jpg',
           'projects/corporate/project-01/04.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-01/fullScreenImages/01.jpg',
+          'projects/corporate/project-01/fullScreenImages/02.jpg',
+          'projects/corporate/project-01/fullScreenImages/03.jpg',
+          'projects/corporate/project-01/fullScreenImages/04.jpg',
+        ]
       },
       {
         id: '2',
@@ -324,6 +498,20 @@ export const projectsData = [
           'projects/corporate/project-02/11.jpg',
           'projects/corporate/project-02/12.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-02/fullScreenImages/01.jpg',
+          'projects/corporate/project-02/fullScreenImages/02.jpg',
+          'projects/corporate/project-02/fullScreenImages/03.jpg',
+          'projects/corporate/project-02/fullScreenImages/04.jpg',
+          'projects/corporate/project-02/fullScreenImages/05.jpg',
+          'projects/corporate/project-02/fullScreenImages/06.jpg',
+          'projects/corporate/project-02/fullScreenImages/07.jpg',
+          'projects/corporate/project-02/fullScreenImages/08.jpg',
+          'projects/corporate/project-02/fullScreenImages/09.jpg',
+          'projects/corporate/project-02/fullScreenImages/10.jpg',
+          'projects/corporate/project-02/fullScreenImages/11.jpg',
+          'projects/corporate/project-02/fullScreenImages/12.jpg',
+        ]
       },
       {
         id: '3',
@@ -347,6 +535,23 @@ export const projectsData = [
           'projects/corporate/project-03/14.jpg',
           'projects/corporate/project-03/15.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-03/fullScreenImages/01.jpg',
+          'projects/corporate/project-03/fullScreenImages/02.jpg',
+          'projects/corporate/project-03/fullScreenImages/03.jpg',
+          'projects/corporate/project-03/fullScreenImages/04.jpg',
+          'projects/corporate/project-03/fullScreenImages/05.jpg',
+          'projects/corporate/project-03/fullScreenImages/06.jpg',
+          'projects/corporate/project-03/fullScreenImages/07.jpg',
+          'projects/corporate/project-03/fullScreenImages/08.jpg',
+          'projects/corporate/project-03/fullScreenImages/09.jpg',
+          'projects/corporate/project-03/fullScreenImages/10.jpg',
+          'projects/corporate/project-03/fullScreenImages/11.jpg',
+          'projects/corporate/project-03/fullScreenImages/12.jpg',
+          'projects/corporate/project-03/fullScreenImages/13.jpg',
+          'projects/corporate/project-03/fullScreenImages/14.jpg',
+          'projects/corporate/project-03/fullScreenImages/15.jpg',
+        ]
       },
       {
         id: '4',
@@ -358,6 +563,11 @@ export const projectsData = [
           'projects/corporate/project-04/02.jpg',
           'projects/corporate/project-04/03.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-04/fullScreenImages/01.jpg',
+          'projects/corporate/project-04/fullScreenImages/02.jpg',
+          'projects/corporate/project-04/fullScreenImages/03.jpg',
+        ]
       },
       {
         id: '5',
@@ -374,6 +584,16 @@ export const projectsData = [
           'projects/corporate/project-05/07.jpg',
           'projects/corporate/project-05/08.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-05/fullScreenImages/01.jpg',
+          'projects/corporate/project-05/fullScreenImages/02.jpg',
+          'projects/corporate/project-05/fullScreenImages/03.jpg',
+          'projects/corporate/project-05/fullScreenImages/04.jpg',
+          'projects/corporate/project-05/fullScreenImages/05.jpg',
+          'projects/corporate/project-05/fullScreenImages/06.jpg',
+          'projects/corporate/project-05/fullScreenImages/07.jpg',
+          'projects/corporate/project-05/fullScreenImages/08.jpg',
+        ]
       },
       {
         id: '6',
@@ -384,6 +604,10 @@ export const projectsData = [
           'projects/corporate/project-06/01.jpg',
           'projects/corporate/project-06/02.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-06/fullScreenImages/01.jpg',
+          'projects/corporate/project-06/fullScreenImages/02.jpg',
+        ]
       },
       {
         id: '7',
@@ -407,6 +631,23 @@ export const projectsData = [
           'projects/corporate/project-07/14.jpg',
           'projects/corporate/project-07/15.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-07/fullScreenImages/01.jpg',
+          'projects/corporate/project-07/fullScreenImages/02.jpg',
+          'projects/corporate/project-07/fullScreenImages/03.jpg',
+          'projects/corporate/project-07/fullScreenImages/04.jpg',
+          'projects/corporate/project-07/fullScreenImages/05.jpg',
+          'projects/corporate/project-07/fullScreenImages/06.jpg',
+          'projects/corporate/project-07/fullScreenImages/07.jpg',
+          'projects/corporate/project-07/fullScreenImages/08.jpg',
+          'projects/corporate/project-07/fullScreenImages/09.jpg',
+          'projects/corporate/project-07/fullScreenImages/10.jpg',
+          'projects/corporate/project-07/fullScreenImages/11.jpg',
+          'projects/corporate/project-07/fullScreenImages/12.jpg',
+          'projects/corporate/project-07/fullScreenImages/13.jpg',
+          'projects/corporate/project-07/fullScreenImages/14.jpg',
+          'projects/corporate/project-07/fullScreenImages/15.jpg',
+        ]
       },
       {
         id: '8',
@@ -419,6 +660,12 @@ export const projectsData = [
           'projects/corporate/project-08/03.jpg',
           'projects/corporate/project-08/04.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-08/fullScreenImages/01.jpg',
+          'projects/corporate/project-08/fullScreenImages/02.jpg',
+          'projects/corporate/project-08/fullScreenImages/03.jpg',
+          'projects/corporate/project-08/fullScreenImages/04.jpg',
+        ]
       },
       {
         id: '9',
@@ -437,6 +684,18 @@ export const projectsData = [
           'projects/corporate/project-09/09.jpg',
           'projects/corporate/project-09/10.jpg',
         ],
+        fullScreenImages: [
+          'projects/corporate/project-09/fullScreenImages/01.jpg',
+          'projects/corporate/project-09/fullScreenImages/02.jpg',
+          'projects/corporate/project-09/fullScreenImages/03.jpg',
+          'projects/corporate/project-09/fullScreenImages/04.jpg',
+          'projects/corporate/project-09/fullScreenImages/05.jpg',
+          'projects/corporate/project-09/fullScreenImages/06.jpg',
+          'projects/corporate/project-09/fullScreenImages/07.jpg',
+          'projects/corporate/project-09/fullScreenImages/08.jpg',
+          'projects/corporate/project-09/fullScreenImages/09.jpg',
+          'projects/corporate/project-09/fullScreenImages/10.jpg',
+        ]
       },
     ],
   },
@@ -470,6 +729,21 @@ export const projectsData = [
           'projects/hospitality/project-01/12.jpg',
           'projects/hospitality/project-01/13.jpg',
         ],
+        fullScreenImages: [
+          'projects/hospitality/project-01/fullScreenImages/01.jpg',
+          'projects/hospitality/project-01/fullScreenImages/02.jpg',
+          'projects/hospitality/project-01/fullScreenImages/03.jpg',
+          'projects/hospitality/project-01/fullScreenImages/04.jpg',
+          'projects/hospitality/project-01/fullScreenImages/05.jpg',
+          'projects/hospitality/project-01/fullScreenImages/06.jpg',
+          'projects/hospitality/project-01/fullScreenImages/07.jpg',
+          'projects/hospitality/project-01/fullScreenImages/08.jpg',
+          'projects/hospitality/project-01/fullScreenImages/09.jpg',
+          'projects/hospitality/project-01/fullScreenImages/10.jpg',
+          'projects/hospitality/project-01/fullScreenImages/11.jpg',
+          'projects/hospitality/project-01/fullScreenImages/12.jpg',
+          'projects/hospitality/project-01/fullScreenImages/13.jpg',
+        ]
       },
       {
         id: '2',
@@ -483,6 +757,13 @@ export const projectsData = [
           'projects/hospitality/project-02/04.jpg',
           'projects/hospitality/project-02/05.jpg',
         ],
+        fullScreenImages: [
+          'projects/hospitality/project-02/fullScreenImages/01.jpg',
+          'projects/hospitality/project-02/fullScreenImages/02.jpg',
+          'projects/hospitality/project-02/fullScreenImages/03.jpg',
+          'projects/hospitality/project-02/fullScreenImages/04.jpg',
+          'projects/hospitality/project-02/fullScreenImages/05.jpg',
+        ]
       },
     ],
   },
@@ -507,6 +788,12 @@ export const projectsData = [
           'projects/commercial/project-01/03.jpg',
           'projects/commercial/project-01/04.jpg',
         ],
+        fullScreenImages: [
+          'projects/commercial/project-01/fullScreenImages/01.jpg',
+          'projects/commercial/project-01/fullScreenImages/02.jpg',
+          'projects/commercial/project-01/fullScreenImages/03.jpg',
+          'projects/commercial/project-01/fullScreenImages/04.jpg',
+        ]
       },
       {
         id: '2',
@@ -519,6 +806,12 @@ export const projectsData = [
           'projects/commercial/project-02/03.jpg',
           'projects/commercial/project-02/04.jpg',
         ],
+        fullScreenImages: [
+          'projects/commercial/project-02/fullScreenImages/01.jpg',
+          'projects/commercial/project-02/fullScreenImages/02.jpg',
+          'projects/commercial/project-02/fullScreenImages/03.jpg',
+          'projects/commercial/project-02/fullScreenImages/04.jpg',
+        ]
       },
       {
         id: '3',
@@ -533,6 +826,14 @@ export const projectsData = [
           'projects/commercial/project-03/05.jpg',
           'projects/commercial/project-03/06.jpg',
         ],
+        fullScreenImages: [
+          'projects/commercial/project-03/fullScreenImages/01.jpg',
+          'projects/commercial/project-03/fullScreenImages/02.jpg',
+          'projects/commercial/project-03/fullScreenImages/03.jpg',
+          'projects/commercial/project-03/fullScreenImages/04.jpg',
+          'projects/commercial/project-03/fullScreenImages/05.jpg',
+          'projects/commercial/project-03/fullScreenImages/06.jpg',
+        ]
       },
     ],
   },
@@ -558,6 +859,9 @@ export const projectsData = [
           'projects/furniture/project-01/05.png',
           'projects/furniture/project-01/06.png',
         ],
+        fullScreenImages: [
+          
+        ]
       },
     ],
   },
