@@ -9,7 +9,7 @@ function Services() {
         <div className={`${styles['services-content']} row row-cols-1 row-cols-md-2 row-cols-lg-3`}>
           {ServicesData.servicesList.map((srv, i) => (
             <div key={i} className={`col flex-grow-1`}>
-              <div className={`${styles['service-details']} my-5 
+              <div className={`${styles['service-details']} my-3
               ${i < 3 ? styles['with-divider'] : ''} ${i >= 3 ? styles['sm-with-divider'] : ''}`}>
                 <img src={srv.logo} alt={srv.title} className='img-fluid' />
                 <h2>{srv.title}</h2>

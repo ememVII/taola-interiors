@@ -6,6 +6,7 @@ import styles from './Projects.module.css'
 
 function Projects() {
   const { projectId } = useParams()
+  
   const [selectedProject, setSelectedProject] = useState('residential')
 
   const handleProjectClick = categoryId => {
@@ -24,6 +25,17 @@ function Projects() {
       setSelectedProject(projectId)
     }
   }, [])
+  
+  useEffect(() => {
+    if(projectId) {
+      const targetElement = document.getElementById(`${projectId}`);
+      // Scroll to the targetElement if found
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [projectId])
+  
   
   // Set selected project to local storage
   useEffect(() => {
@@ -96,6 +108,7 @@ function Projects() {
             key={i}
             className={`${project.id === selectedProject ? styles.active : ''}`}
             onClick={() => handleProjectClick(project.id)}
+            id={project.id}
           >
             {project.projectTitle}
           </li>

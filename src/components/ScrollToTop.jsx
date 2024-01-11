@@ -6,12 +6,14 @@ function ScrollToTop() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const element = document.documentElement;
+    if(!pathname.includes('/projects/')) {
+      const element = document.documentElement;
     const timeout = setTimeout(() => {
       element.scrollTo({ top: 0, behavior: 'smooth' });
     }, 100);
-
     return () => clearTimeout(timeout);
+    }
+
   }, [pathname, navigate]);
 
   return null;
