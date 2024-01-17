@@ -11,6 +11,8 @@ import aboutLayer from "/about/layer.png";
 import Contact from "/Contact.png";
 
 // Utilities
+import chevronRightArrow from '/utilities/chevronRightArrow.svg'
+import chevronLeftArrow from '/utilities/chevronLeftArrow.svg'
 import rightArrowLight from '/utilities/rightArrowLight.svg'
 import rightArrowDark from '/utilities/rightArrowDark.svg'
 import UpRightArrowLight from '/utilities/UpRightArrowLight.svg'
@@ -59,6 +61,8 @@ export {
     plan,
     vase,
     flower,
+    chevronRightArrow,
+    chevronLeftArrow,
     rightArrowLight,
     rightArrowDark,
     UpRightArrowLight,

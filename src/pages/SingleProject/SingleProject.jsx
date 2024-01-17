@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import styles from './SingleProject.module.css'
 import { projectsData } from '../../data/projects'
-import { LeftArrowDark, rightArrowDark, closeMenu } from '../../utils/imgs'
+import { LeftArrowDark, closeMenu, chevronLeftArrow, chevronRightArrow } from '../../utils/imgs'
 import { Link } from 'react-router-dom'
 import NotFound from '../NotFound/NotFound'
 import { useEffect, useState } from 'react'
@@ -74,7 +74,7 @@ function SingleProject() {
   ))
 
   const fullImages = fullScreenImages.map((path, i) => path)
-    console.log(fullImages);
+  
   return (
     <>
       <div className={styles.singleProject}>
@@ -92,9 +92,9 @@ function SingleProject() {
           <div className={styles['lightbox-overlay']}>
             <div className={styles.lightbox}>
               <button className={styles['close-btn']} onClick={closeLightbox}><i className="fa-solid fa-xmark"></i></button>
-              <button className={styles['prev-btn']} onClick={prevImage}><img src={LeftArrowDark}/></button>
+              <button className={styles['prev-btn']} onClick={prevImage}><i className="fa-solid fa-chevron-left"></i></button>
               <img src={fullImages[currentIndex]} />
-              <button className={styles['next-btn']} onClick={nextImage}><img src={rightArrowDark}/></button>
+              <button className={styles['next-btn']} onClick={nextImage}><i className="fa-solid fa-chevron-right"></i></button>
             </div>
           </div>
         ) : (
