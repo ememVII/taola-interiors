@@ -73,8 +73,26 @@ img.IntroFlower {
 }
 
 @media (max-width: 997px) {
+  
   .intro .heroSignature {
-    display: none;
+    font-family: 'Qwitcher Grypen', cursive;
+    position: absolute;
+    top: -4%;
+    letter-spacing: 10px;
+    font-size: 90px;
+    color: var(--signature-color);
+  }
+}
+
+@media (max-width: 354px) {
+
+  .intro .heroSignature {
+    font-family: 'Qwitcher Grypen', cursive;
+    position: absolute;
+    top: -2%;
+    letter-spacing: 10px;
+    font-size: 60px;
+    color: var(--signature-color);
   }
 }
 
@@ -208,6 +226,12 @@ img.IntroFlower {
   text-align: center;
   /* gap: 45px; */
   align-self: stretch;
+}
+
+@media (max-width: 576px) {
+  .dividerVertical {
+    right: -8px !important;
+  }
 }
 
 @media (max-width: 991px) {

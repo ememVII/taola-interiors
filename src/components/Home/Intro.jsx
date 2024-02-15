@@ -11,7 +11,7 @@ function Intro() {
           <h1 className={`${styles.introHeading}`}>We Believe</h1>
 
           <p className='lh-lg'>
-            that every person has the right to live in a space that expresses
+            That every person has the right to live in a space that expresses
             his true authentic self.. <br/> Your home, work place or project is an
             extension of who you really are. <br/> We help people create this space.
             we help them be THEMSELVES.
