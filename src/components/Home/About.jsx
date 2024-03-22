@@ -1,11 +1,11 @@
-import { flower } from '../../utils/imgs'
+import { tiBadge } from '../../utils/imgs'
 import styles from './Home.module.css'
 
 function About() {
   return (
     <section className={styles.about}>
       <div className={styles['about-content']}>
-        <img src={flower} alt="flower" className={`${styles.AboutFlower}`} />
+        <img src={tiBadge} alt="ti Badge" className={`${styles.AboutFlower}`} />
         <h1>Taola “طاولة”</h1>
         <h2>“Blending Tradition with modernity”</h2>
         <div className={styles.lineDivider}></div>

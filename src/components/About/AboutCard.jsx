@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import { about, flower, aboutLayer } from '../../utils/imgs'
+import { about, tiBadge, aboutLayer } from '../../utils/imgs'
 
 function About() {
   return (
@@ -61,7 +61,7 @@ function About() {
                 <img src={aboutLayer} alt="overlay" className="img-fluid" />
               </div>
               <div className={`${styles.flower_img} text-end`}>
-                <img src={flower} alt="flower_pic" className="img-fluid" />
+                <img src={tiBadge} alt="ti Badge" className="img-fluid" />
               </div>
             </div>
           </div>

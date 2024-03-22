@@ -1,14 +1,14 @@
 // Loading
-import Logo from '/Logo.png';
-import LoadingLogo from '/imgs/Taola.png';
-import flower from "/utilities/FLOWER.png";
+import Logo from '/Logo.png'
+import LoadingLogo from '/imgs/Taola.png'
+import tiBadge from '/utilities/tiBadge.png'
 
 //About
-import about from "/about/about.png";
-import aboutLayer from "/about/layer.png";
+import about from '/about/about.png'
+import aboutLayer from '/about/layer.png'
 
 //Contact
-import Contact from "/Contact.png";
+import Contact from '/Contact.png'
 
 // Utilities
 import chevronRightArrow from '/utilities/chevronRightArrow.svg'
@@ -41,34 +41,33 @@ import vase from '/services/vase.svg'
 // Projects
 import projectsHeader from '/projects/projectsHeader.png'
 
-
 export {
-    Logo,
-    LoadingLogo,
-    about,
-    aboutLayer,
-    Contact,
-    homeIntro,
-    HospitalityHomeProject,
-    CorporateHomeProject,
-    ResidentialHomeProject,
-    CommercialHomeProject,
-    FurnitureProductionHomeProject,
-    interiorDesign,
-    constructionWork,
-    furnitures,
-    partnership,
-    plan,
-    vase,
-    flower,
-    chevronRightArrow,
-    chevronLeftArrow,
-    rightArrowLight,
-    rightArrowDark,
-    UpRightArrowLight,
-    UpRightArrowDark,
-    LeftArrowDark,
-    Line,
-    closeMenu,
-    projectsHeader
+  Logo,
+  LoadingLogo,
+  about,
+  aboutLayer,
+  Contact,
+  homeIntro,
+  HospitalityHomeProject,
+  CorporateHomeProject,
+  ResidentialHomeProject,
+  CommercialHomeProject,
+  FurnitureProductionHomeProject,
+  interiorDesign,
+  constructionWork,
+  furnitures,
+  partnership,
+  plan,
+  vase,
+  tiBadge,
+  chevronRightArrow,
+  chevronLeftArrow,
+  rightArrowLight,
+  rightArrowDark,
+  UpRightArrowLight,
+  UpRightArrowDark,
+  LeftArrowDark,
+  Line,
+  closeMenu,
+  projectsHeader,
 }

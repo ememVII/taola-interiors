@@ -32,6 +32,10 @@ ul.links li.active a {
   border-bottom: 2px solid var(--font-color);
 }
 
+nav .logo {
+  padding: 1.5rem 0 0.7rem 0;
+}
+
 nav p {
   color: var(--font-color);
   margin-top: auto !important;

@@ -52,17 +52,27 @@ img.introImg {
 
 img.IntroFlower {
   position: absolute;
-  width: 120px;
-  height: 120px;
-  bottom: -5rem;
-  right: -3.5rem;
-  opacity: 0.5;
+  width: 750px;
+  height: 750px;
+  bottom: -18rem;
+  right: -18rem;
 }
 
-@media (max-width: 780px) {
-  /* intro MediaQuery */
+@media (max-width: 767px) {
   img.IntroFlower {
-    position: absolute;
+    width: 450px;
+    height: 450px;
+    bottom: -10rem;
+    right: -10rem;
+  }
+}
+
+@media (max-width: 412px) {
+  img.IntroFlower {
+    width: 350px;
+    height: 350px;
+    bottom: -8rem;
+    right: -8rem;
   }
 }
 
@@ -73,7 +83,6 @@ img.IntroFlower {
 }
 
 @media (max-width: 997px) {
-  
   .intro .heroSignature {
     font-family: 'Qwitcher Grypen', cursive;
     position: absolute;
@@ -85,7 +94,6 @@ img.IntroFlower {
 }
 
 @media (max-width: 354px) {
-
   .intro .heroSignature {
     font-family: 'Qwitcher Grypen', cursive;
     position: absolute;
