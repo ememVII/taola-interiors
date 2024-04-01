@@ -16,24 +16,24 @@ import NotFound from './pages/NotFound/NotFound'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(false)
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 100)
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false)
+  //   }, 10)
 
-    if (isLoading) {
-      document.body.classList.add('disable-scroll')
-    } else {
-      document.body.classList.remove('disable-scroll')
-    }
+  //   if (isLoading) {
+  //     document.body.classList.add('disable-scroll')
+  //   } else {
+  //     document.body.classList.remove('disable-scroll')
+  //   }
 
-    return () => {
-      document.body.classList.remove('disable-scroll')
-    }
-  }, [isLoading])
-  
+  //   return () => {
+  //     document.body.classList.remove('disable-scroll')
+  //   }
+  // }, [isLoading])
+
   return (
     <>
       {isLoading ? (
@@ -42,7 +42,7 @@ function App() {
         <>
           <Navbar />
           <main className="my-container">
-            <ScrollToTop/> {/* Include ScrollToTop as a top-level component */}
+            <ScrollToTop /> {/* Include ScrollToTop as a top-level component */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
@@ -66,7 +66,6 @@ function App() {
           <Footer />
         </>
       )}
-
     </>
   )
 }

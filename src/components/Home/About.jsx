@@ -5,7 +5,6 @@ function About() {
   return (
     <section className={styles.about}>
       <div className={styles['about-content']}>
-        <img src={tiBadge} alt="ti Badge" className={`${styles.AboutFlower}`} />
         <h1>Taola “طاولة”</h1>
         <h2>“Blending Tradition with modernity”</h2>
         <div className={styles.lineDivider}></div>

@@ -52,10 +52,10 @@ img.introImg {
 
 img.IntroFlower {
   position: absolute;
-  width: 750px;
-  height: 750px;
-  bottom: -18rem;
-  right: -18rem;
+  width: 900px;
+  height: 900px;
+  bottom: -22rem;
+  right: -22rem;
 }
 
 @media (max-width: 767px) {
@@ -106,7 +106,7 @@ img.IntroFlower {
 
 /* Home Projects */
 .projects {
-  padding: 7rem 0 0 0 !important;
+  padding: 7rem 7rem !important;
   /* Override the padding styles by using negative margins */
   position: relative; /* Establish positioning context */
   left: -2.5rem; /* Adjust left position by the container's padding */
@@ -127,17 +127,45 @@ img.IntroFlower {
   margin: 1rem 5px;
 }
 
+.projectsTiBadge {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  left: -17rem;
+  bottom: -13rem;
+  z-index: 99;
+  opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+  .projectsTiBadge {
+    width: 450px;
+    height: 450px;
+    bottom: -4rem;
+    left: -7rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .projectsTiBadge {
+    width: 350px;
+    height: 350px;
+    bottom: -8rem;
+    right: -8rem;
+  }
+}
+
 .projects img.projectImg {
   width: 100%;
   /* max-height: 37rem; */
   object-fit: cover;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .singleProject {
     flex: 1 !important;
   }
-}
+} */
 
 @media (max-width: 1200px) {
   .projects h2 {
