@@ -3,8 +3,13 @@ import styles from './Home.module.css'
 
 function About() {
   return (
-    <section className={styles.about}>
-      <div className={styles['about-content']}>
+    <section className={`${styles.about}`}>
+      <div className={`${styles['about-content']}`}>
+        <img
+            src={tiBadge}
+            alt="taola Badge"
+            className={`${styles.tiBadge}`}
+          />
         <h1>Taola “طاولة”</h1>
         <h2>“Blending Tradition with modernity”</h2>
         <div className={styles.lineDivider}></div>

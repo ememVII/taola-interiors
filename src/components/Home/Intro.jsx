@@ -1,13 +1,14 @@
-import { tiBadge, homeIntro } from '../../utils/imgs'
+import { tiBadge, homeIntro01, homeIntro02, homeIntro03, homeIntro04 } from '../../utils/imgs'
+import HeroSlideShow from '../UI/HeroSlideShow/HeroSlideShow'
 import styles from './Home.module.css'
 
 function Intro() {
   return (
     <div className="d-flex justify-content-center">
       <section className={`${styles.intro} row justify-content-between`}>
-        <h1 className={`${styles.heroSignature}`}>Taola</h1>
-        <div className={`${styles.introDetails} col-12 col-lg-8`}>
-          <div className="mb-4">
+        {/* <h1 className={`${styles.heroSignature}`}>Taola</h1> */}
+        <div className={`${styles.introDetails} pt-5 col-12 col-lg-6`}>
+          <div className="">
             <h1 className={`${styles.introHeading}`}>We Believe</h1>
 
             <p className="lh-lg">
@@ -29,17 +30,18 @@ function Intro() {
           </div>
         </div>
 
-        <div className="col-12 col-lg-4">
-          <img
+        <div className="col-12 col-lg-6">
+          {/* <img
             src={tiBadge}
             alt="ti Badge"
             className={`${styles.IntroFlower}`}
-          />
-          <img
-            src={homeIntro}
+          /> */}
+          {/* <img
+            src={homeIntro01}
             alt="interior design"
             className={`${styles.introImg}`}
-          />
+          /> */}
+          <HeroSlideShow />
         </div>
       </section>
     </div>

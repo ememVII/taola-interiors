@@ -5,7 +5,8 @@
   position: relative;
   background-color: var(--light-gray-bg);
   border-radius: 4px;
-  padding: 32px;
+  padding: 60px 50px 75px 50px;
+  width: 100%;
 }
 
 .intro .heroSignature {
@@ -26,20 +27,20 @@
 }
 
 .introHeading {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--font-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .introDetails p {
-  color: rgba(0, 0, 0, 0.75);
+  color: var(--font-color);
   text-align: justify;
-  font-family: 'Cairo', sans-serif;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -47,10 +48,27 @@
 
 img.introImg {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-img.IntroFlower {
+.image-slideshow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-slideshow img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* img.IntroFlower {
   position: absolute;
   width: 900px;
   height: 900px;
@@ -74,7 +92,7 @@ img.IntroFlower {
     bottom: -8rem;
     right: -8rem;
   }
-}
+} */
 
 @media (min-width: 998px) and (max-width: 1500px) {
   .intro .heroSignature {
@@ -106,7 +124,7 @@ img.IntroFlower {
 
 /* Home Projects */
 .projects {
-  padding: 7rem 7rem !important;
+  padding: 5rem 5rem !important;
   /* Override the padding styles by using negative margins */
   position: relative; /* Establish positioning context */
   left: -2.5rem; /* Adjust left position by the container's padding */
@@ -126,7 +144,7 @@ img.IntroFlower {
   letter-spacing: 1px;
   margin: 1rem 5px;
 }
-
+/* 
 .projectsTiBadge {
   position: absolute;
   width: 750px;
@@ -153,7 +171,7 @@ img.IntroFlower {
     bottom: -8rem;
     right: -8rem;
   }
-}
+} */
 
 .projects img.projectImg {
   width: 100%;
@@ -166,10 +184,18 @@ img.IntroFlower {
     flex: 1 !important;
   }
 } */
+ 
+.singleProject h2 {
+  transform: translateX(50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--light-font-color);
+}
 
-@media (max-width: 1200px) {
-  .projects h2 {
-    font-size: 18px !important;
+@media (max-width: 767px) {
+  .singleProject h2 {
+    font-size: 20px;
   }
 }
 
@@ -181,13 +207,36 @@ img.IntroFlower {
   width: calc(100% + 5rem); /* Adjust width to fill the container */
   background-color: var(--about-section-color);
   display: flex;
-  padding: 96px 75px;
+  padding: 56px 75px;
   justify-content: center;
   align-items: center;
   align-self: stretch;
 }
 
+.about .tiBadge {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .about {
+    /* padding: 40px 24px; */
+    padding: 96px 75px 10rem 75px;
+  }
+  
+  .about .tiBadge {
+    width: 120.36px;
+    height: 160px;
+    position: absolute;
+    left: auto;
+    right: 0 !important;
+  }
+}
+
 .about-content {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--light-font-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,15 +246,14 @@ img.IntroFlower {
 }
 
 .about-content h1 {
-  color: var(--font-color);
   font-size: 32px;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 .about-content h2 {
-  color: var(--font-color);
   font-size: 24px;
   font-style: italic;
   font-weight: 400;
@@ -213,8 +261,6 @@ img.IntroFlower {
 }
 
 .about-content p {
-  color: rgba(0, 0, 0, 0.75);
-  font-family: 'Cairo', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -222,34 +268,19 @@ img.IntroFlower {
 }
 
 .about .lineDivider {
-  background-color: var(--line-divider);
+  background-color: var(--light-font-color);
   width: 100%;
-  height: 3px;
+  height: 1px;
 }
 
-.about .AboutFlower {
+/* .about .AboutFlower {
   width: 309px;
   height: 309px;
   position: absolute;
   left: -148px;
   top: 81px;
   opacity: 0.15;
-}
-
-@media (max-width: 767px) {
-  .about {
-    padding: 96px 75px 10rem 75px;
-    overflow: hidden;
-  }
-
-  .about .AboutFlower {
-    top: unset;
-    left: unset;
-    right: 50%;
-    bottom: 0;
-    transform: translate(50%, 50%);
-  }
-}
+} */
 
 /* Our Services */
 .services {

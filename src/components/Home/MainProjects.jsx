@@ -13,11 +13,11 @@ import styles from './Home.module.css'
 function MainProjects() {
   return (
     <section className={`${styles.projects}`}>
-      <img
+      {/* <img
           src={tiBadge}
           alt="ti Badge"
           className={`${styles.projectsTiBadge}`}
-        />
+        /> */}
       <SectionHeader
         header={'Projects'}
         content={
@@ -28,19 +28,19 @@ function MainProjects() {
         {[
           ['hospitality', 'Hospitality', HospitalityHomeProject],
           ['corporate', 'Corporate', CorporateHomeProject],
-          ['commercial', 'Commercial', CommercialHomeProject],
           ['residential', 'Residential', ResidentialHomeProject],
+          ['commercial', 'Commercial', CommercialHomeProject],
           ['furniture', 'Furniture Production', FurnitureProductionHomeProject],
         ].map(([projectId, projectName, projectImg], index) => (
-          <div className="col-6 col-lg-4" key={projectId}>
-            <div className={`${styles.singleProject}`} key={index}>
+          <div className="col-12 col-lg-4 flex-grow-1" key={projectId}>
+            <div className={`${styles.singleProject} position-relative`} key={index}>
               <Link to={`/projects/${projectId}`}>
-                <h2>{projectName}</h2>
                 <img
                   src={projectImg}
                   alt={projectName}
                   className={styles.projectImg}
                 />
+                <h2 className='position-absolute bottom-0 end-50'>{projectName}</h2>
               </Link>
             </div>
           </div>

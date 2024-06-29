@@ -1,7 +1,14 @@
 .loading {
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--about-section-color);
+  /* background-color: var(--about-section-color); */
+}
+
+.loading video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
 }

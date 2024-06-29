@@ -16,23 +16,23 @@ import NotFound from './pages/NotFound/NotFound'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsLoading(false)
-  //   }, 10)
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false)
+    }, 3000)
 
-  //   if (isLoading) {
-  //     document.body.classList.add('disable-scroll')
-  //   } else {
-  //     document.body.classList.remove('disable-scroll')
-  //   }
+    if (isLoading) {
+      document.body.classList.add('disable-scroll')
+    } else {
+      document.body.classList.remove('disable-scroll')
+    }
 
-  //   return () => {
-  //     document.body.classList.remove('disable-scroll')
-  //   }
-  // }, [isLoading])
+    return () => {
+      document.body.classList.remove('disable-scroll')
+    }
+  }, [isLoading])
 
   return (
     <>

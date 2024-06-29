@@ -1,5 +1,5 @@
 // Loading
-import Logo from '/Logo.png'
+import Logo from '/Logo.svg'
 import LoadingLogo from '/imgs/Taola.png'
 import tiBadge from '/utilities/tiBadge.png'
 
@@ -22,7 +22,10 @@ import Line from '/utilities/Line.svg'
 import closeMenu from '/utilities/closeMenu.svg'
 
 // Home
-import homeIntro from '/home/intro.png'
+import homeIntro01 from '/home/intro01.png'
+import homeIntro02 from '/home/intro02.png'
+import homeIntro03 from '/home/intro03.png'
+import homeIntro04 from '/home/intro04.png'
 
 import HospitalityHomeProject from '/home/HospitalityHomeProject.jpg'
 import CorporateHomeProject from '/home/CorporateHomeProject.jpg'
@@ -47,7 +50,10 @@ export {
   about,
   aboutLayer,
   Contact,
-  homeIntro,
+  homeIntro01,
+  homeIntro02,
+  homeIntro03,
+  homeIntro04,
   HospitalityHomeProject,
   CorporateHomeProject,
   ResidentialHomeProject,
