@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import styles from './HeroSlideShow.module.css'
 
 const images = [
-  '/home/intro01.png',
-  '/home/intro02.png',
-  '/home/intro03.png',
-  '/home/intro04.png'
+  'home/intro01.png',
+  'home/intro02.png',
+  'home/intro03.png',
+  'home/intro04.png'
 ];
 
 const HeroSlideShow = () => {
