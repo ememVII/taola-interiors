@@ -26,6 +26,7 @@ footer .footer-content {
 }
 
 ul.links {
+  padding: 0 !important;
   margin-top: auto !important;
   display: flex;
   justify-content: center;
@@ -43,6 +44,13 @@ ul.links a {
   font-style: normal;
   font-weight: 500;
   line-height: 19.2px; /* 120% */
+}
+
+@media (max-width: 767px) {
+  ul.links a {
+    font-size: 12px;
+    line-height: 14.63px;
+  }
 }
 
 ul.social-links {

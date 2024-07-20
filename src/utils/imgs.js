@@ -1,5 +1,6 @@
 // Loading
 import Logo from '/Logo.svg'
+import LogoMobile from '/LogoMobile.svg'
 import LoadingLogo from '/imgs/Taola.png'
 import tiBadge from '/utilities/tiBadge.png'
 
@@ -46,6 +47,7 @@ import projectsHeader from '/projects/projectsHeader.png'
 
 export {
   Logo,
+  LogoMobile,
   LoadingLogo,
   about,
   aboutLayer,

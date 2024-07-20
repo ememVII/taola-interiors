@@ -4,6 +4,7 @@ import bricks4kidz from "/clients/bricks-4-kidz logo.png";
 import crcica from "/clients/CRCICA logo.png";
 import marriott from "/clients/marriott logo.png";
 import polyserve from "/clients/polyserve logo.png";
+import lantern from "/clients/lantern.png";
 
 export const clientLogo = [
     marriott,
@@ -12,4 +13,5 @@ export const clientLogo = [
     abdelraouf,
     bricks4kidz,
     polyserve,
+    lantern
 ]

@@ -53,6 +53,12 @@ li {
   padding: 0 2.5rem !important;
 }
 
+@media (max-width: 767px) {
+  .my-container {
+    padding: 0 1.5rem !important;
+  }
+}
+
 /* For webkit-based browsers (Chrome, Safari) */
 /* You might need to add vendor prefixes for other browsers */
 

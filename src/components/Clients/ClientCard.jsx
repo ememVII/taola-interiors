@@ -9,6 +9,7 @@ function Clients() {
     'abdelraouf',
     'bricks4kidz',
     'polyserve',
+    'lantern'
   ]
 
   return (

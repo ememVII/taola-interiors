@@ -6,7 +6,6 @@ function Intro() {
   return (
     <div className="d-flex justify-content-center">
       <section className={`${styles.intro} row justify-content-between`}>
-        {/* <h1 className={`${styles.heroSignature}`}>Taola</h1> */}
         <div className={`${styles.introDetails} pt-5 col-12 col-lg-6`}>
           <div className="">
             <h1 className={`${styles.introHeading}`}>We Believe</h1>

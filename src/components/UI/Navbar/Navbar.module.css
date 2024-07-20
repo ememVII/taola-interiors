@@ -6,8 +6,26 @@ nav {
   align-items: center;
   flex: 1 0 0;
   align-self: stretch;
-  padding-bottom: 0.75rem !important;
+  padding-bottom: 0.25rem !important;
   border-bottom: 2px solid var(--line-divider);
+}
+
+.logo-desktop {
+  display: block; /* Show on desktop */
+}
+
+.logo-mobile {
+  display: none; /* Hide on desktop */
+}
+
+@media (max-width: 767px) {
+  .logo-desktop {
+    display: none; /* Show on desktop */
+  }
+  
+  .logo-mobile {
+    display: block; /* Hide on desktop */
+  }
 }
 
 ul.links {
@@ -28,13 +46,9 @@ ul.links a {
 
 ul.links li.active a {
   font-weight: 600;
-  padding-bottom: 1.9rem !important;
+  padding-bottom: 1.4rem !important;
   border-bottom: 2px solid var(--font-color);
 }
-
-/* nav .logo {
-  padding: 1.5rem 0 0.7rem 0;
-} */
 
 nav p {
   color: var(--font-color);

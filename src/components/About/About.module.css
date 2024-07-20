@@ -3,23 +3,28 @@
   padding-bottom: 7rem;
 }
 
-#about .content .Main_Title h1 {
+#about .content {
+  gap: 50px;
+}
+
+.Main_Title h1 {
   color: var(--font-color);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-family: 'Aire Roman Std';
+  font-size: 60px;
   font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  font-weight: 400;
+  /* line-height: normal; */
+  margin-bottom: 32px;
 }
 
 #about .content p {
-  color: #000;
+  color: rgba(33, 33, 33, 0.75);
   text-align: justify;
-  font-family: 'Cairo', sans-serif;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .section_img img,
@@ -41,62 +46,27 @@
   max-width: 90%; /* Set the maximum width to maintain proportion */
 }
 
-.flower_img {
-  position: absolute;
-  width: 110px;
-  height: 110px;
-  right: 0;
-  bottom: -10%;
-  transform: translateX(10%);
-  opacity: 0.5;
-}
-
-/* @media (max-width: 1024px) {
-  #about .overlay_box {
-    top: -40px;
-    right: -15px;
-  }
-} */
-
 @media (max-width: 991px) {
-  /* #about .overlay_box {
-    display: none;
-  }  */
-
   .content {
     margin-bottom: 5rem;
   }
-
-  #about .section_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .flower_img {
-    width: 75px;
-    height: 75px;
-    right: 25%;
-    bottom: -5%;
-  }
 }
 
-@media (max-width: 575px) {
-  .flower_img {
-    width: 55px;
-    height: 55px;
-    right: 0;
-    bottom: -5%;
+@media (max-width: 767px) {
+  #about {
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
   }
-}
 
-@media (min-width: 576px) and (max-width: 730px) {
-  .flower_img {
-    width: 75px;
-    height: 75px;
-    right: 10%;
-    bottom: -5%;
+  .Main_Title h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #about .content p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
   }
 }

@@ -1,5 +1,10 @@
 import styles from './Navbar.module.css'
-import { Logo, UpRightArrowDark, closeMenu } from '../../../utils/imgs'
+import {
+  Logo,
+  LogoMobile,
+  UpRightArrowDark,
+  closeMenu,
+} from '../../../utils/imgs'
 import { Link, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
@@ -32,10 +37,15 @@ function Navbar() {
     <nav>
       <div className={styles.logo}>
         <Link to="/home">
-          <img src={Logo} alt="taola logo" width={150} />
+          <img src={Logo} alt="taola logo" className={styles['logo-desktop']} />
+          <img
+            src={LogoMobile}
+            alt="taola logo"
+            className={styles['logo-mobile']}
+          />
         </Link>
       </div>
-      <p onClick={handleNavToggler}>Menu</p>
+        <p onClick={handleNavToggler} className='pt-4'>Menu</p>
       {navToggler && (
         <div className={styles.navMenu}>
           <img src={closeMenu} alt="close menu" onClick={handleNavToggler} />

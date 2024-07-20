@@ -1,21 +1,11 @@
 /* Intro Section */
 .intro {
   /* margin: 5rem 0 1rem 0 !important; */
-  margin-top: 6rem !important;
+  margin-top: 3rem !important;
   position: relative;
   background-color: var(--light-gray-bg);
   border-radius: 4px;
-  padding: 60px 50px 75px 50px;
   width: 100%;
-}
-
-.intro .heroSignature {
-  font-family: 'Qwitcher Grypen', cursive;
-  position: absolute;
-  top: -68px;
-  letter-spacing: 10px;
-  font-size: 150px;
-  color: var(--signature-color);
 }
 
 .introDetails {
@@ -46,6 +36,23 @@
   line-height: normal;
 }
 
+@media (max-width: 767px) {
+  .introDetails {
+    padding: 24px, 16px, 24px, 16px !important;
+    gap: 32px;
+  }
+  
+  .introHeading {
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+  
+  .introDetails p {
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+}
+
 img.introImg {
   width: 100%;
   height: 100%;
@@ -65,61 +72,6 @@ img.introImg {
   width: 100%;
   height: auto;
   object-fit: cover;
-}
-
-
-/* img.IntroFlower {
-  position: absolute;
-  width: 900px;
-  height: 900px;
-  bottom: -22rem;
-  right: -22rem;
-}
-
-@media (max-width: 767px) {
-  img.IntroFlower {
-    width: 450px;
-    height: 450px;
-    bottom: -10rem;
-    right: -10rem;
-  }
-}
-
-@media (max-width: 412px) {
-  img.IntroFlower {
-    width: 350px;
-    height: 350px;
-    bottom: -8rem;
-    right: -8rem;
-  }
-} */
-
-@media (min-width: 998px) and (max-width: 1500px) {
-  .intro .heroSignature {
-    top: -75px;
-  }
-}
-
-@media (max-width: 997px) {
-  .intro .heroSignature {
-    font-family: 'Qwitcher Grypen', cursive;
-    position: absolute;
-    top: -4%;
-    letter-spacing: 10px;
-    font-size: 90px;
-    color: var(--signature-color);
-  }
-}
-
-@media (max-width: 354px) {
-  .intro .heroSignature {
-    font-family: 'Qwitcher Grypen', cursive;
-    position: absolute;
-    top: -2%;
-    letter-spacing: 10px;
-    font-size: 60px;
-    color: var(--signature-color);
-  }
 }
 
 /* Home Projects */

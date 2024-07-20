@@ -6,12 +6,12 @@ function About() {
     <>
       <section id={styles.about}>
         <div className="my-container">
-          <div className="row d-flex align-items-center">
-            <div className="col-12 col-lg-8 flex-grow-1">
-              <div className={styles.content}>
-                <div className={`${styles.Main_Title} mb-5`}>
-                  <h1>Who Are We</h1>
-                </div>
+          <div className={`${styles.Main_Title}`}>
+            <h1>Who Are We</h1>
+          </div>
+          <div className="row d-flex gap-2">
+            <div className="col-12 col-lg-6 flex-grow-1">
+              <div className={`${styles.content}`}>
                 <p>
                   Taola Interiors is a Cairo-based interior design studio with a
                   rich portfolio of project since 2009. The Studio was founded
@@ -44,7 +44,7 @@ function About() {
                   valuable industry experience, Nadia contributes invaluable
                   insights and expertise to our projects.
                 </p>
-                <p className="mt-4">
+                <p>
                   Driven by a shared passion for design and unwavering attention
                   to detail, the team at Taola Interiors is dedicated to
                   ensuring client satisfaction by delivering bespoke interior
@@ -54,14 +54,11 @@ function About() {
             </div>
 
             <div
-              className={`${styles.section_img} col-12 col-lg-4 position-relative text-center`}
+              className={`${styles.section_img} col-12 col-lg-4 position-relative text-center `}
             >
               <img src={about} alt="about-pic" className="img-fluid" />
               <div className={`${styles.overlay_box} position-absolute`}>
                 <img src={aboutLayer} alt="overlay" className="img-fluid" />
-              </div>
-              <div className={`${styles.flower_img} text-end`}>
-                <img src={tiBadge} alt="ti Badge" className="img-fluid" />
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@ function Footer() {
   return (
     <footer>
       <div className={styles['footer-content']}>
-        <ul className={`${styles.links} `}>
+        <ul className={`${styles.links}`}>
           {footerRouting.map(([route, footerLink], i) => (
             <li key={i}>
               <Link to={route}>{footerLink}</Link>

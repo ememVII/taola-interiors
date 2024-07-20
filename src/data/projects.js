@@ -697,6 +697,18 @@ export const projectsData = [
           'projects/corporate/project-09/fullScreenImages/10.jpg',
         ]
       },
+      {
+        id: '10',
+        title: 'Lantern venture',
+        scope: 'Interior design',
+        subProjectCover: 'projects/corporate/project-10/artwork.jpg',
+        images: [
+          // 'projects/corporate/project-10/01.jpg',
+        ],
+        fullScreenImages: [
+          // 'projects/corporate/project-10/fullScreenImages/01.jpg',
+        ]
+      },
     ],
   },
   
