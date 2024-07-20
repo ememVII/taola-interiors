@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 100)
+    }, 6000)
 
     if (isLoading) {
       document.body.classList.add('disable-scroll')
