@@ -123,6 +123,13 @@
   object-fit: cover;
 }
 
+@media (max-width: 767px) {
+  .projects .projectsContent img {
+    width: 165px;
+    height: 165px;
+  }
+}
+
 .projects .projectsContent h3 {
   color: var(--primary);
   text-align: center;

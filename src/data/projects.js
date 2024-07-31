@@ -9,6 +9,56 @@ export const projectsData = [
       'Taola Interiors has a passion for working on residential projects. As in each project the team aims at capturing the essence of the client and create authentic and genuine spaces that reflect their unique personalities and preferences.',
     subProjects: [
       {
+        id: '17',
+        title: 'M. A. House - Fouka Bay',
+        scope: 'Interior Design',
+        subProjectCover: 'projects/residential/project-17/artwork.jpg',
+        images: [
+          'projects/residential/project-17/01.jpg',
+          'projects/residential/project-17/02.jpg',
+          'projects/residential/project-17/03.jpg',
+          'projects/residential/project-17/04.jpg',
+          'projects/residential/project-17/05.jpg',
+          'projects/residential/project-17/06.jpg',
+          'projects/residential/project-17/07.jpg',
+          'projects/residential/project-17/08.jpg',
+          'projects/residential/project-17/09.jpg',
+          'projects/residential/project-17/10.jpg',
+          'projects/residential/project-17/11.jpg',
+          'projects/residential/project-17/12.jpg',
+          'projects/residential/project-17/13.jpg',
+          'projects/residential/project-17/14.jpg',
+          'projects/residential/project-17/15.jpg',
+          'projects/residential/project-17/16.jpg',
+          'projects/residential/project-17/17.jpg',
+          'projects/residential/project-17/18.jpg',
+          'projects/residential/project-17/19.jpg',
+          'projects/residential/project-17/20.jpg',
+        ],
+        fullScreenImages: [
+          'projects/residential/project-17/fullScreenImages/01.jpg',
+          'projects/residential/project-17/fullScreenImages/02.jpg',
+          'projects/residential/project-17/fullScreenImages/03.jpg',
+          'projects/residential/project-17/fullScreenImages/04.jpg',
+          'projects/residential/project-17/fullScreenImages/05.jpg',
+          'projects/residential/project-17/fullScreenImages/06.jpg',
+          'projects/residential/project-17/fullScreenImages/07.jpg',
+          'projects/residential/project-17/fullScreenImages/08.jpg',
+          'projects/residential/project-17/fullScreenImages/09.jpg',
+          'projects/residential/project-17/fullScreenImages/10.jpg',
+          'projects/residential/project-17/fullScreenImages/11.jpg',
+          'projects/residential/project-17/fullScreenImages/12.jpg',
+          'projects/residential/project-17/fullScreenImages/13.jpg',
+          'projects/residential/project-17/fullScreenImages/14.jpg',
+          'projects/residential/project-17/fullScreenImages/15.jpg',
+          'projects/residential/project-17/fullScreenImages/16.jpg',
+          'projects/residential/project-17/fullScreenImages/17.jpg',
+          'projects/residential/project-17/fullScreenImages/18.jpg',
+          'projects/residential/project-17/fullScreenImages/19.jpg',
+          'projects/residential/project-17/fullScreenImages/20.jpg',
+        ]
+      },
+      {
         id: '1',
         title: 'AE Villa - Newgiza',
         scope: 'Interior design - turn key',
@@ -462,6 +512,18 @@ export const projectsData = [
       "Taola Interiors has worked on various corporate offices, including the total make over and complete renovation of CRCICA (Cairo Regional Centre for International Commercial Arbitration). The firm transformed the outdated 1970's design into a modern and state-of-the-art arbitration center. The center won the award for best arbitration center worldwide that same year after the renovation. Leading to another 2 major projects with the same entity for a full face lift of the conference center and the employees area. ",
     subProjects: [
       {
+        id: '10',
+        title: 'Lantern venture',
+        scope: 'Interior design',
+        subProjectCover: 'projects/corporate/project-10/artwork.jpg',
+        images: [
+          // 'projects/corporate/project-10/01.jpg',
+        ],
+        fullScreenImages: [
+          // 'projects/corporate/project-10/fullScreenImages/01.jpg',
+        ]
+      },
+      {
         id: '1',
         title: 'Polyserve Group',
         scope: 'Interior Design',
@@ -695,18 +757,6 @@ export const projectsData = [
           'projects/corporate/project-09/fullScreenImages/08.jpg',
           'projects/corporate/project-09/fullScreenImages/09.jpg',
           'projects/corporate/project-09/fullScreenImages/10.jpg',
-        ]
-      },
-      {
-        id: '10',
-        title: 'Lantern venture',
-        scope: 'Interior design',
-        subProjectCover: 'projects/corporate/project-10/artwork.jpg',
-        images: [
-          // 'projects/corporate/project-10/01.jpg',
-        ],
-        fullScreenImages: [
-          // 'projects/corporate/project-10/fullScreenImages/01.jpg',
         ]
       },
     ],

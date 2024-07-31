@@ -7,7 +7,10 @@
 }
 
 .thumbnail-image {
-  width: 100%;
+  /* width: 100%; */
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
   cursor: pointer;
 }
 
