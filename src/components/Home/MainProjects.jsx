@@ -5,7 +5,6 @@ import {
   ResidentialHomeProject,
   CommercialHomeProject,
   FurnitureProductionHomeProject,
-  tiBadge,
 } from '../../utils/imgs'
 import SectionHeader from '../UI/SectionHeader/SectionHeader'
 import styles from './Home.module.css'
@@ -13,11 +12,6 @@ import styles from './Home.module.css'
 function MainProjects() {
   return (
     <section className={`${styles.projects}`}>
-      {/* <img
-          src={tiBadge}
-          alt="ti Badge"
-          className={`${styles.projectsTiBadge}`}
-        /> */}
       <SectionHeader
         header={'Projects'}
         content={
@@ -33,14 +27,20 @@ function MainProjects() {
           ['furniture', 'Furniture Production', FurnitureProductionHomeProject],
         ].map(([projectId, projectName, projectImg], index) => (
           <div className="col-12 col-lg-4 flex-grow-1" key={projectId}>
-            <div className={`${styles.singleProject} position-relative`} key={index}>
+            <div
+              className={`${styles.singleProject} position-relative`}
+              key={index}
+            >
               <Link to={`/projects/${projectId}`}>
                 <img
                   src={projectImg}
                   alt={projectName}
                   className={styles.projectImg}
+                  loading="lazy"
                 />
-                <h2 className='position-absolute bottom-0 end-50'>{projectName}</h2>
+                <h2 className="position-absolute bottom-0 end-50">
+                  {projectName}
+                </h2>
               </Link>
             </div>
           </div>

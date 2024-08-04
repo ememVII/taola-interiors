@@ -6,17 +6,17 @@ import styles from './Projects.module.css'
 
 function Projects() {
   const { projectId } = useParams()
-  
+
   const [selectedProject, setSelectedProject] = useState('residential')
 
   const handleProjectClick = categoryId => {
     setSelectedProject(categoryId)
   }
-  
+
   // Retrieve last selected project from local storage
   useEffect(() => {
     const storedSelectedProject = localStorage.getItem('selectedProject')
-    
+
     if (storedSelectedProject) {
       setSelectedProject(JSON.parse(storedSelectedProject))
     }
@@ -25,18 +25,17 @@ function Projects() {
       setSelectedProject(projectId)
     }
   }, [])
-  
+
   useEffect(() => {
-    if(projectId) {
-      const targetElement = document.getElementById(`${projectId}`);
+    if (projectId) {
+      const targetElement = document.getElementById(`${projectId}`)
       // Scroll to the targetElement if found
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+        targetElement.scrollIntoView({ behavior: 'smooth' })
       }
     }
   }, [projectId])
-  
-  
+
   // Set selected project to local storage
   useEffect(() => {
     localStorage.setItem('selectedProject', JSON.stringify(selectedProject))
@@ -97,7 +96,12 @@ function Projects() {
           </div>
 
           <div className="col-lg-4 text-center flex-grow-1">
-            <img src={projectsHeader} alt="" className="img-fluid" />
+            <img
+              src={projectsHeader}
+              alt=""
+              className="img-fluid"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -118,7 +122,8 @@ function Projects() {
       <div className={`${styles.projectsContent} row text-center`}>
         {projectsData.map(
           project =>
-            project.id === selectedProject && !project.notClickable &&
+            project.id === selectedProject &&
+            !project.notClickable &&
             project.subProjects.map(subProject => (
               <Link
                 to={`/${project.id}/${subProject.id}`}
@@ -129,6 +134,7 @@ function Projects() {
                   src={subProject.subProjectCover}
                   alt={subProject.title}
                   className="img-fluid"
+                  loading="lazy"
                 />
                 <h3>{subProject.title}</h3>
                 <p>{subProject.scope}</p>

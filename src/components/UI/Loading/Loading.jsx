@@ -9,9 +9,6 @@ function Loading() {
         Your browser does not support the video tag.
       </video>
     </div>
-    // <div className={styles.loading}>
-    //     <img src={LoadingLogo} className='img-fluid'/>
-    // </div>
   )
 }
 

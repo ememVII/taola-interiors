@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import { about, tiBadge, aboutLayer } from '../../utils/imgs'
+import { about, aboutLayer } from '../../utils/imgs'
 
 function About() {
   return (
@@ -56,9 +56,19 @@ function About() {
             <div
               className={`${styles.section_img} col-12 col-lg-4 position-relative text-center `}
             >
-              <img src={about} alt="about-pic" className="img-fluid" />
+              <img
+                src={about}
+                alt="about-pic"
+                className="img-fluid"
+                loading="lazy"
+              />
               <div className={`${styles.overlay_box} position-absolute`}>
-                <img src={aboutLayer} alt="overlay" className="img-fluid" />
+                <img
+                  src={aboutLayer}
+                  alt="overlay"
+                  className="img-fluid"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

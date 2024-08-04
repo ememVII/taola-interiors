@@ -23,6 +23,7 @@ import Line from '/utilities/Line.svg'
 import closeMenu from '/utilities/closeMenu.svg'
 
 // Home
+// Home Intro slideshow
 import homeIntro01 from '/home/intro01.png'
 import homeIntro02 from '/home/intro02.png'
 import homeIntro03 from '/home/intro03.png'

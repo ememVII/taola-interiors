@@ -1,4 +1,3 @@
-import { tiBadge, homeIntro01, homeIntro02, homeIntro03, homeIntro04 } from '../../utils/imgs'
 import HeroSlideShow from '../UI/HeroSlideShow/HeroSlideShow'
 import styles from './Home.module.css'
 
@@ -30,16 +29,6 @@ function Intro() {
         </div>
 
         <div className="col-12 col-lg-6">
-          {/* <img
-            src={tiBadge}
-            alt="ti Badge"
-            className={`${styles.IntroFlower}`}
-          /> */}
-          {/* <img
-            src={homeIntro01}
-            alt="interior design"
-            className={`${styles.introImg}`}
-          /> */}
           <HeroSlideShow />
         </div>
       </section>

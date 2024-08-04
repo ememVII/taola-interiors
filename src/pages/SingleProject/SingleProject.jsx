@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import styles from './SingleProject.module.css'
 import { projectsData } from '../../data/projects'
-import { LeftArrowDark, closeMenu, chevronLeftArrow, chevronRightArrow } from '../../utils/imgs'
+import { LeftArrowDark } from '../../utils/imgs'
 import { Link } from 'react-router-dom'
 import NotFound from '../NotFound/NotFound'
 import { useEffect, useState } from 'react'
@@ -26,6 +26,9 @@ function SingleProject() {
   const [currentIndex, setCurrentIndex] = useState(null)
   const [showLightbox, setShowLightbox] = useState(false)
 
+  // Distructure
+  const { title, scope, images, fullScreenImages } = subProject
+  
   const openLightbox = index => {
     setCurrentIndex(index)
     setShowLightbox(true)
@@ -46,35 +49,37 @@ function SingleProject() {
       prevIndex === 0 ? fullScreenImages.length - 1 : prevIndex - 1
     )
   }
-  
-    // Event listener for keyboard arrow keys
-    useEffect(() => {
-      const handleKeyPress = (event) => {
-        if (event.key === 'ArrowRight') {
-          nextImage();
-        } else if (event.key === 'ArrowLeft') {
-          prevImage();
-        }
-      };
-  
-      window.addEventListener('keydown', handleKeyPress);
-  
-      return () => {
-        window.removeEventListener('keydown', handleKeyPress);
-      };
-    }, []);
-    
-  // Distructure
-  const { title, scope, images, fullScreenImages } = subProject
+
+  // Event listener for keyboard arrow keys
+  useEffect(() => {
+    const handleKeyPress = event => {
+      if (event.key === 'ArrowRight') {
+        nextImage()
+      } else if (event.key === 'ArrowLeft') {
+        prevImage()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyPress)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress)
+    }
+  }, [])
 
   const thumbnails = images.map((path, i) => (
     <div key={i} className="project-image col-md-4 my-3">
-      <img src={`${path}`} className={styles['thumbnail-image']} onClick={() => openLightbox(i)} />
+      <img
+        src={`${path}`}
+        className={styles['thumbnail-image']}
+        onClick={() => openLightbox(i)}
+        loading="lazy"
+      />
     </div>
   ))
 
   const fullImages = fullScreenImages.map((path, i) => path)
-  
+
   return (
     <>
       <div className={styles.singleProject}>
@@ -91,10 +96,16 @@ function SingleProject() {
         {showLightbox ? (
           <div className={styles['lightbox-overlay']}>
             <div className={styles.lightbox}>
-              <button className={styles['close-btn']} onClick={closeLightbox}><i className="fa-solid fa-xmark"></i></button>
-              <button className={styles['prev-btn']} onClick={prevImage}><i className="fa-solid fa-chevron-left"></i></button>
-              <img src={fullImages[currentIndex]} />
-              <button className={styles['next-btn']} onClick={nextImage}><i className="fa-solid fa-chevron-right"></i></button>
+              <button className={styles['close-btn']} onClick={closeLightbox}>
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+              <button className={styles['prev-btn']} onClick={prevImage}>
+                <i className="fa-solid fa-chevron-left"></i>
+              </button>
+              <img src={fullImages[currentIndex]} loading="lazy" />
+              <button className={styles['next-btn']} onClick={nextImage}>
+                <i className="fa-solid fa-chevron-right"></i>
+              </button>
             </div>
           </div>
         ) : (

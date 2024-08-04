@@ -8,8 +8,8 @@
 
 .thumbnail-image {
   /* width: 100%; */
-  width: 320px;
-  height: 320px;
+  width: 360px;
+  height: 360px;
   object-fit: cover;
   cursor: pointer;
 }
