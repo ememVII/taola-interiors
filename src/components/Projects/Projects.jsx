@@ -98,7 +98,7 @@ function Projects() {
           <div className="col-lg-4 text-center flex-grow-1">
             <img
               src={projectsHeader}
-              alt=""
+              alt="projects Header image"
               className="img-fluid"
               loading="lazy"
             />
@@ -119,7 +119,7 @@ function Projects() {
         ))}
       </ul>
 
-      <div className={`${styles.projectsContent} row text-center`}>
+      <div className={`${styles.projectsContent} row text-center gy-4`}>
         {projectsData.map(
           project =>
             project.id === selectedProject &&

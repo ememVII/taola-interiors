@@ -44,7 +44,7 @@ import plan from '/services/plan.svg'
 import vase from '/services/vase.svg'
 
 // Projects
-import projectsHeader from '/projects/projectsHeader.png'
+import projectsHeader from '/projects/projectsHeader.webp'
 
 export {
   Logo,

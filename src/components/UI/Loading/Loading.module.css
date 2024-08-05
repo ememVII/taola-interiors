@@ -1,14 +1,21 @@
 .loading {
+  margin: 0;
+  padding: 0;
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: var(--about-section-color); */
+  background-color: #C5B0A2;
+  border: none;
+  overflow: hidden;
 }
 
 .loading video {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  /* max-width: 100%; */
+  /* min-height: 100%; */
   object-fit: cover;
+  object-position: center;
+  clip-path: inset(5% 5%); 
 }
