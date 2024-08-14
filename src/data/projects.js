@@ -310,7 +310,7 @@ export const projectsData = [
         id: '11',
         title: 'I house - Lavista bay',
         scope: 'Interior design & Furniture production',
-        subProjectCover: 'projects/residential/project-10/artwork.webp',
+        subProjectCover: 'projects/residential/project-11/artwork.webp',
         images: [
           'projects/residential/project-11/01.webp',
           'projects/residential/project-11/02.webp',
