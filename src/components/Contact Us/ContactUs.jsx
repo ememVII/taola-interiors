@@ -38,7 +38,19 @@ function ContactUs() {
                     <div
                       className={`${styles.column_Two} position-relative ps-3`}
                     >
-                      {contactData.contactList.slice(2, 4).map((contact, i) => (
+                      <div>
+                        <h3>Phone numbers</h3>
+                        <p className="mb-0 pb-0">Cell: +201070605946</p>
+                        <p className="mb-0 pb-0">Cell: +201001230126</p>
+                      </div>
+                      <div className="mt-3">
+                        <h3 className='mb-1'>Email</h3>
+                        <Link to="mailto: taola@taolaegypt.com">
+                          taola@taolaegypt.com
+                        </Link>
+                      </div>
+
+                      {/* {contactData.contactList.slice(2, 4).map((contact, i) => (
                         <div key={i}>
                           <h3>{contact.title}</h3>
                           <p className="mb-0 pb-0">
@@ -49,7 +61,7 @@ function ContactUs() {
                           </p>
                           <p>{contact.description.tel_Two}</p>
                         </div>
-                      ))}
+                      ))} */}
                     </div>
                   </div>
                 </div>
